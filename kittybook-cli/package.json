@@ -7,7 +7,7 @@
     "build:h5": "vue-cli-service build --mode h5"
   },
   "dependencies": {
-    "@dcloudio/uni-h5": "^2.0.2",
+    "@dcloudio/uni-h5": "^3.0.0-4000820240401001",
     "@vue/cli-service": "^5.0.8"
   },
   "author": "lyuanzhi",
