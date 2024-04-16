@@ -17,6 +17,12 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12'
+    
+    - name: Change to front-end directory
+      run: cd kittybook-cli
+
+    - name: Create package.json
+      run: npm init -y
 
     - name: Install dependencies
       run: npm install
