@@ -1,0 +1,1 @@
+<view class="cwgProgress"><view style="{{'background:'+(firstBackground)+';'+('height:'+(progressHeight+'px')+';')+('border-radius:'+((borderRadius==-1?progressHeight/2:borderRadius)+'px')+';')+('width:'+(progress/100*100+'%')+';')}}"></view></view>

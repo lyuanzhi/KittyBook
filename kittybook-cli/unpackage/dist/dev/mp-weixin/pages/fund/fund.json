@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "progress": "/components/cwg-progress/cwg-progress",
+    "loading": "/components/wyb-loading/wyb-loading"
+  }
+}

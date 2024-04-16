@@ -13,21 +13,8 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
 
-    - name: Set up Node.js
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12'
-
-    - name: Install dependencies
-      working-directory: ./kittybook-cli
-      run: npm install
-
-    - name: Build
-      working-directory: ./kittybook-cli
-      run: npm run build:h5
-
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./dist/build/h5
+        publish_dir: ./kittybook-cli/unpackage/dist/build/h5

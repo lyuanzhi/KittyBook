@@ -1,0 +1,45 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "minified": true,
+    "postcss": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wxceee7651a4bd8583",
+  "projectname": "kittybook-cli",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "catdetail",
+          "query": "",
+          "id": 0,
+          "pathName": "pages/catdetail/catdetail"
+        },
+        {
+          "name": "fund",
+          "query": "",
+          "id": 1,
+          "pathName": "pages/fund/fund"
+        }
+      ]
+    }
+  }
+}

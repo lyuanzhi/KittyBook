@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/catmap/catmap",
+    "pages/fund/fund",
+    "pages/allcats/allcats",
+    "pages/catdetail/catdetail",
+    "pages/about/about"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "宁诺猫咪图鉴",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#2c2c2c",
+    "selectedColor": "#7dc5eb",
+    "backgroundColor": "#F8F8F8",
+    "list": [
+      {
+        "pagePath": "pages/catmap/catmap",
+        "text": "猫咪图鉴",
+        "iconPath": "static/catmap.png",
+        "selectedIconPath": "static/catmapSelected.png"
+      },
+      {
+        "pagePath": "pages/fund/fund",
+        "text": "资金公示",
+        "iconPath": "static/fund.png",
+        "selectedIconPath": "static/fundSelected.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "关于",
+        "iconPath": "static/about.png",
+        "selectedIconPath": "static/aboutSelected.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

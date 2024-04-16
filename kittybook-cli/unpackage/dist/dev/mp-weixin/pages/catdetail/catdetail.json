@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "loading": "/components/wyb-loading/wyb-loading"
+  }
+}
