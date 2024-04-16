@@ -1,0 +1,16 @@
+{
+  "name": "KittyBook",
+  "version": "1.0.0",
+  "description": "A mobile website for cat adoption organizations",
+  "main": "index.js",
+  "scripts": {
+    "build:h5": "vue-cli-service build --mode h5"
+  },
+  "dependencies": {
+    "@dcloudio/uni-h5": "^2.0.2",
+    "@vue/cli-service": "^5.0.8"
+  },
+  "author": "lyuanzhi",
+  "license": "ISC"
+}
+
