@@ -20,6 +20,9 @@ jobs:
     
     - name: Change to front-end directory
       run: cd kittybook-cli
+      
+    - name: Change Test
+      run: ls
 
     - name: Install dependencies
       run: npm install
