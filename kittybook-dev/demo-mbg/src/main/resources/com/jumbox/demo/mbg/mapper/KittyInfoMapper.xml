@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jumbox.demo.mbg.mapper.KittyInfoMapper">
+  <resultMap id="BaseResultMap" type="com.jumbox.demo.mbg.pojo.KittyInfo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="img_url" jdbcType="VARCHAR" property="imgUrl" />
+    <result column="avatar_url" jdbcType="VARCHAR" property="avatarUrl" />
+    <result column="kitty_sex" jdbcType="VARCHAR" property="kittySex" />
+    <result column="kitty_health" jdbcType="VARCHAR" property="kittyHealth" />
+    <result column="hair_color" jdbcType="VARCHAR" property="hairColor" />
+    <result column="kitty_sterilization_time" jdbcType="VARCHAR" property="kittySterilizationTime" />
+    <result column="kitty_sterilization" jdbcType="VARCHAR" property="kittySterilization" />
+    <result column="kitty_birthday" jdbcType="VARCHAR" property="kittyBirthday" />
+    <result column="first_seen" jdbcType="VARCHAR" property="firstSeen" />
+    <result column="kitty_character" jdbcType="VARCHAR" property="kittyCharacter" />
+    <result column="kitty_appearance" jdbcType="VARCHAR" property="kittyAppearance" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="heart_num" jdbcType="INTEGER" property="heartNum" />
+  </resultMap>
+</mapper>

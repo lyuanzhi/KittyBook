@@ -1,0 +1,62 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/catmap/catmap"
+		},
+		{
+			"path": "pages/fund/fund"
+		},
+		{
+			"path": "pages/allcats/allcats"
+		},
+		{
+			"path": "pages/catdetail/catdetail"
+		},
+		{
+			"path": "pages/about/about"
+		}
+    ],
+	"tabBar": {
+	    "color": "#2c2c2c",
+	    "selectedColor": "#7dc5eb",
+	    "backgroundColor": "#F8F8F8",
+	    "list": [
+	        {
+	            "pagePath": "pages/catmap/catmap",
+	            "text": "CatBook",
+				"iconPath":"static/catmap.png",
+				"selectedIconPath":"static/catmapSelected.png"
+	        },
+	        {
+	            "pagePath": "pages/fund/fund",
+	            "text": "Funds",
+				"iconPath":"static/fund.png",
+				"selectedIconPath":"static/fundSelected.png"
+	        },
+	        {
+	            "pagePath": "pages/about/about",
+	            "text": "About",
+				"iconPath":"static/about.png",
+				"selectedIconPath":"static/aboutSelected.png"
+	        }
+	    ]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "Hogwarts Animal Center",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition": {
+		"list": [
+		{
+			"name": "catdetail",
+			"path": "pages/catdetail/catdetail",
+			"query": ""
+		},{
+			"name": "fund",
+			"path": "pages/fund/fund",
+			"query": ""
+		}]
+	}
+}

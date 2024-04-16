@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jumbox.demo.mbg.mapper.FundsMapper">
+  <resultMap id="BaseResultMap" type="com.jumbox.demo.mbg.pojo.Funds">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="payment" jdbcType="INTEGER" property="payment" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="content" jdbcType="VARCHAR" property="content" />
+    <result column="create_time" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="month" jdbcType="INTEGER" property="month" />
+    <result column="day" jdbcType="INTEGER" property="day" />
+  </resultMap>
+</mapper>
